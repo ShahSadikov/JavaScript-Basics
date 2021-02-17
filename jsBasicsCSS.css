@@ -31,31 +31,31 @@
         text-decoration: underline;
         list-style-position: outside;
         margin-left: 15px;
-        /* display: initial; */
     }
         .nested_list{
             list-style-position:inside;
         }
+    .home{
+        padding-bottom: 0px;
+    }
 #main_content{
-    width: 700px;
+    width: 716px;
     min-height: 380px;
     background-color: rgb(14,23,34);
     display: inline-block;
-    margin: 15px ;
+    margin: 15px 0px 15px 15px ;
     padding: 20px;
     border-radius: 20px;
 }
-    .main_c_list{
-        list-style-position: inside;
+    div.subcontents ul li{
+        margin-left: 20px;
+        padding: 5px;
     }
     span{
         color:rgb(124,139,255);
     }
     .subcontents{
         color: rgb(219,213,255);  
-    }
-    .subcontents ul li{
-        padding: 5px;
     }
     .subcontents h2, p{
         padding-bottom: 10px;
